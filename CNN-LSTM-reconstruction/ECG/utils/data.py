@@ -1,11 +1,10 @@
-from distutils.log import debug
 import wfdb
 import os
 import numpy as np
 
 
 class Data:  
-    DATABASE_PATH = 'database/mit-bih-arrhythmia-database-1.0.0'
+    DATABASE_PATH = '../../../../CS-Research-databases/ECG/mit-bih-arrhythmia-database-1.0.0'
 
     TEST_SET = [100, 101, 102, 107, 109, \
                 111, 115, 117, 118, 119]

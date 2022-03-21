@@ -24,6 +24,6 @@ class CS:
             y = self.phi @ singleX
             y_hat = self.phi.T @ y
             
-            normalized.append((y_hat + np.mean(y_hat)) / np.std(y_hat))
+            normalized.append((y_hat - np.mean(y_hat)) / np.std(y_hat))
     
         return np.reshape(np.array(normalized), (-1, self.N, 1))   

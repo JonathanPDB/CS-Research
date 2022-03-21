@@ -20,3 +20,6 @@ This method is more specific and aimed at sampling and reconstructing biosignals
 The ECG repo is focused on replicating the article written by Zhang et al. (2019) [CSNet: A deep learning approach for ECG compressed sensing](https://www.sciencedirect.com/science/article/pii/S1746809421006625 "CSNet").
 
 On the other hand, the EMG repo attempts to further the latter article and apply the technique on sEMG signals.
+
+Make sure you have the database repo on your machine in the same directory as this one.
+[CS-Research-databases](https://github.com/JonathanPDB/CS-Research-databases)

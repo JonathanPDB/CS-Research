@@ -26,4 +26,4 @@ csnet = CSNet(N)
 csnet.createModel(r)
 csnet.train(gold=x, epochs=1)
 
-print('\nModel saved as %s', csnet.saveName)
+print('\nModel saved as', csnet.saveName)
